@@ -452,7 +452,7 @@ class OnePage extends Component {
                       className="art-link"
                       onClick={() =>
                         window.open(
-                          'https://drive.google.com/file/d/1MnjoLfbGVLrMEO7qYBkcX30HwshfUIOz/view?usp=sharing'
+                          'https://drive.google.com/file/d/1ix0h-2GOYVWxSpPAJDBo_EnXwjCRyI1W/view?usp=sharing'
                         )
                       }
                     >
