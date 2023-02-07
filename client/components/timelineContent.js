@@ -1,5 +1,6 @@
 import React from 'react'
 import profilePic from '../../public/images/me.png'
+import amy from '../../public/images/amy.png'
 
 const monthNames = [
   'Jan',
@@ -103,12 +104,13 @@ function TimelineContent(props) {
             <div className="testimonial-body">
               <img
                 className="art-testimonial-face"
-                src={profilePic}
+                src={amy}
                 alt="face"
               />
-              <h5>Content Author</h5>
-              <div className="art-el-suptitle mb-15">Zohayb Shaikh</div>
-              <div className="mb-15">Content placeholder.</div>
+              <h5>Amy Williams</h5>
+              <div className="art-el-suptitle mb-15">Director, Software Engineering</div>
+              <div className="mb-15">To Whom It May Concern: My name is Amy Williams and I served as Director, Engineering at SparkCognition located in Austin, TX.  SparkCognition is an AI product company that helps solve solutions for different industries.  In the summer of 2019, while at SparkCognition, is when I met Zohayb for the first time when interviewing for our summer internship program.  Right away I was impressed by Zohayb’s concise communication and his willingness to learn new areas for personal growth as well as adding key features to our product roadmap.  He expressed his interest in learning software engineering as it relates to data science.  I felt this was a win-win situation for Zohayb and our company. Zohayb has a complete skillset that is setting himself up for success down the road.  Such qualities include ability to listen to senior members of the team for instruction and guidance, calm demeanor that helps him work better with others and hear and understand their perspectives, along with ability to actually deliver quality software.  I know Zohayb is young, but I fully advocate for him to continue his learnings in the academic settings; the university will benefit from his personal experience along with his work experience thus far in the professional setting.  Zohayb was able to learn the software engineering processes that are practiced in an agile environment, while also having code reviews for his work by our senior engineers.  Throughout the summer Zohayb continued to work hard, and I am proud to say his work and feature was deployed and delivered in our product release that summer.  Not all can say this about their work.  Another call out is his ability to demo his work to a large product audience.  We treated him like one of us, but most of all, he performed like one of us.  That was most impressive to me. I strongly encourage you to admit Zohayb into your program.  He has strong work ethic, team values, and is eager to continue to learn and work collaboratively with others.  I see him as changing the way we build software in the future.  I cannot wait to see Zohayb continue his journey!
+              <br/><br/>Regards<br></br>Amy Williams,<br></br>Director, Engineering</div>
             </div>
             <div className="art-testimonial-footer">
               <div className="art-left-side">
