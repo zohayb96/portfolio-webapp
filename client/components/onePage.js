@@ -47,7 +47,7 @@ const allProjects = [
     title: 'Auracy',
     description: 'Tools for learning from online video',
     media: {image: auracy},
-    code: 'http://auracy.io',
+    video: 'http://auracy.io',
     tag: {0: 'Web', 3: 'Mobile'},
     groupId: 0
   },
