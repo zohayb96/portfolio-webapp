@@ -13,26 +13,26 @@ const socketio = require('socket.io')
 module.exports = app
 
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
+// // TODO: Add SDKs for Firebase products that you want to use
+// // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyBgI83TBLhNMl1nbZVswOw6RBbxrRfdi68",
-  authDomain: "zohaybshaikh-59a98.firebaseapp.com",
-  projectId: "zohaybshaikh-59a98",
-  storageBucket: "zohaybshaikh-59a98.appspot.com",
-  messagingSenderId: "305476440289",
-  appId: "1:305476440289:web:1bc6bf430d3aef278167a0",
-  measurementId: "G-RYJJBXBLD7"
-};
+// // Your web app's Firebase configuration
+// // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// const firebaseConfig = {
+//   apiKey: "AIzaSyBgI83TBLhNMl1nbZVswOw6RBbxrRfdi68",
+//   authDomain: "zohaybshaikh-59a98.firebaseapp.com",
+//   projectId: "zohaybshaikh-59a98",
+//   storageBucket: "zohaybshaikh-59a98.appspot.com",
+//   messagingSenderId: "305476440289",
+//   appId: "1:305476440289:web:1bc6bf430d3aef278167a0",
+//   measurementId: "G-RYJJBXBLD7"
+// };
 
 // Initialize Firebase
-const app1 = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app1);
+// const app1 = initializeApp(firebaseConfig);
+// const analytics = getAnalytics(app1);
 
 // This is a global Mocha hook, used for resource cleanup.
 // Otherwise, Mocha v4+ never quits after tests.

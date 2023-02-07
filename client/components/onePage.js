@@ -35,7 +35,7 @@ import spark from '../../public/images/spark.jpeg'
 import nyc from '../../public/images/nyc.jpg'
 import abhi from '../../public/images/abhi.jpeg'
 import visionx from '../../public/images/visionx.png'
-import pakistan from '../../public/images/pakistan.jpeg'
+import auracy from '../../public/images/auracy.png'
 import spotifyApi from './getToken'
 import Fancybox from './Fancy'
 import ut from '../../public/images/ut.png'
@@ -43,13 +43,22 @@ import ut from '../../public/images/ut.png'
 // Dummy data
 const allProjects = [
   {
+    id: 10,
+    title: 'Auracy',
+    description: 'Tools for learning from online video',
+    media: {image: auracy},
+    code: 'http://auracy.io',
+    tag: {0: 'Web', 3: 'Mobile'},
+    groupId: 0
+  },
+  {
     id: 0,
     title: 'DropAR',
     description: 'Collaborative Augented Reality Drawing App',
     media: {image: dropar},
     video: 'https://youtu.be/Xlg2TLEKOPU',
     code: 'https://github.com/drop-ar/drop-ar',
-    tag: {0: 'Web', 3: 'Mobile'},
+    tag: {0: 'Web', 3: 'Web'},
     groupId: 0
   },
   {
