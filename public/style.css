@@ -1154,7 +1154,7 @@ info bar
   .art-lamp-light
   .art-available-lamp:after {
   position: relative;
-  content: 'Work Hard, Stay Humble.';
+  content: '';
   width: 115px;
   display: block;
   padding: 5px 10px;
