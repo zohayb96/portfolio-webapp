@@ -47,7 +47,7 @@ const allProjects = [
     title: 'Auracy',
     description: 'Tools for learning from online video',
     media: {image: auracy},
-    video: 'http://auracy.io',
+    code: 'http://auracy.io',
     tag: {0: 'Web', 3: 'Mobile'},
     groupId: 0
   },
@@ -198,10 +198,11 @@ const allJourney = [
   //   groupId: 2
   // },
     {
+      id: 8,
     title: 'McCombs School of Business, Austin, Texas',
     role: null,
-    startDate: new Date(2023, 5, 4),
-    endDate: new Date(2022, 5, 1),
+    startDate: new Date(2022, 4, 4),
+    endDate: new Date(2023, 4, 2),
     media: {image: ut},
     info:
       'Master of Science in Technology Commercialization',
@@ -240,8 +241,8 @@ const allJourney = [
     id: 2,
     role: null,
     title: 'New York University',
-    startDate: new Date(2015, 9, 1),
-    endDate: new Date(2017, 6, 1),
+    startDate: new Date(2015, 5, 1),
+    endDate: new Date(2017, 5, 1),
     media: {image: newyorkuni},
     info:
       'Economics major - Completed the NYU liberal studies program in two years. The cultures sequence of the program consisted of a foundational background in art-history and literature. Whilst the "Global Works and Society Sequence" was an exploration of the great works in philosophy, history, religion, and political theory. Recommended reading: "The Prince" by Machiavelli and "The Bonobo and the Atheist" by Frans De Waal',
@@ -266,8 +267,8 @@ const allJourney = [
     id: 7,
     title: 'Abhi',
     role: 'UI Designer + Software Engineer',
-    startDate: new Date(2022, 2, 1),
-    endDate: new Date(2022, 6, 1),
+    startDate: new Date(2022, 1, 1),
+    endDate: new Date(2022, 5, 1),
     media: {image: abhi},
     info: 'Spearheaded the gamification of the ABHI mobile app and led the front end development of Abhi Super League game, deployed live to 500,000+ users',
     content: null,
@@ -278,8 +279,8 @@ const allJourney = [
     id: 6,
     title: 'VisionX',
     role: 'IOS Engineer',
-    startDate: new Date(2021, 7, 1),
-    endDate: new Date(2021, 9, 1),
+    startDate: new Date(2021, 6, 1),
+    endDate: new Date(2021, 8, 1),
     media: {image: visionx},
     info: 'Implemented the MVC and MVVM architecture to build 10 simple functioning AR apps using UIKit and SwiftUI',
     content: null,
@@ -456,7 +457,7 @@ class OnePage extends Component {
                     </Button> */}
                   </div>
                   <div className="art-ls-divider" />
-                  <div className="art-links-frame p-15-15">
+                  {/* <div className="art-links-frame p-15-15">
                     <div
                       className="art-link"
                       onClick={() =>
@@ -465,9 +466,9 @@ class OnePage extends Component {
                         )
                       }
                     >
-                      Download Resume <i className="fas fa-download" />
+                      View Resume <i className="fas fa-download" />
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
