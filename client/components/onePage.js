@@ -408,67 +408,26 @@ class OnePage extends Component {
                   <div className="art-sm-text-color">Software Engineer</div>
                   <div className="art-sm-text">McCombs23, Austin, Texas</div>
                 </div>
-                <div id="scrollbar2" className="art-scroll-frame">
                   <div className="art-hard-skills p-15-15">
-                    {/* <h6>Artistry Progress</h6> */}
+                    <h6>Skills</h6>
                     <div className="art-hard-skills-item">
                       <div className="art-skill-heading">
-                        <h5 className="art-name mb-10">Javascript</h5>
+                        <h5 className="art-name mb-10">Fullstack JS</h5>
                       </div>
-                      <Progress percent={70} color="yellow" size="tiny" />
-                    </div>
-                    <div className="art-hard-skills-item">
-                      <div className="art-skill-heading">
-                        <h5 className="art-name mb-10">Backend</h5>
-                      </div>
-                      <Progress percent={30} size="tiny" color="yellow" />
+                      <Progress percent={75} color="yellow" size="tiny" />
                     </div>
                     <div className="art-hard-skills-item">
                       <div className="art-skill-heading">
-                        <h5 className="art-name mb-10">UI / UX</h5>
+                        <h5 className="art-name mb-10">UI Design</h5>
                       </div>
-                      <Progress percent={50} size="tiny" color="purple" />
+                      <Progress percent={70} color="purple" size="tiny" />
                     </div>
                     <div className="art-hard-skills-item">
                       <div className="art-skill-heading">
-                        <h5 className="art-name mb-10">Guitar</h5>
+                        <h5 className="art-name mb-10">Business Management</h5>
                       </div>
-                      <Progress percent={10} size="tiny" color="blue" />
+                      <Progress percent={60} color="blue" size="tiny" />
                     </div>
-                  </div>
-                  {/* <div className="art-ls-divider" />
-                  <div className="art-links-frame p-15-15">
-                    <h5 className="art-name mb-10">
-                      Current Read: The Silk Roads <br /> Peter Frankopan
-                    </h5>
-                  </div> */}
-                  {/* <div className="art-ls-divider" /> */}
-                  <div className="art-links-frame p-15-15">
-                    <h5 className="art-name mb-10">
-                      {/* Artist on repeat: Pink Floyd */}
-                      {this.state.currentSong}
-                    </h5>
-                    {/* SPOTIFY INTERGRATIOn */}
-                    {/* <Button variant="info" type="submit" onClick={handleLogin}>
-                      Login to spotify
-                    </Button>
-                    <Button variant="info" type="submit" onClick={this.getCurrentPlaying}>
-                      Get Current Song
-                    </Button> */}
-                  </div>
-                  <div className="art-ls-divider" />
-                  {/* <div className="art-links-frame p-15-15">
-                    <div
-                      className="art-link"
-                      onClick={() =>
-                        window.open(
-                          'https://drive.google.com/file/d/1ix0h-2GOYVWxSpPAJDBo_EnXwjCRyI1W/view?usp=sharing'
-                        )
-                      }
-                    >
-                      View Resume <i className="fas fa-download" />
-                    </div>
-                  </div> */}
                 </div>
               </div>
             </div>
