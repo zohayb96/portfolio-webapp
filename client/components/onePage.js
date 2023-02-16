@@ -424,7 +424,7 @@ class OnePage extends Component {
                     </div>
                     <div className="art-hard-skills-item">
                       <div className="art-skill-heading">
-                        <h5 className="art-name mb-10">Business Management</h5>
+                        <h5 className="art-name mb-10">Product Leadership</h5>
                       </div>
                       <Progress percent={60} color="blue" size="tiny" />
                     </div>
