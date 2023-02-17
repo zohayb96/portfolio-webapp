@@ -405,7 +405,7 @@ class OnePage extends Component {
                     </div>
                   </div>
                   <h5 className="art-name mb-10">Zohayb Shaikh</h5>
-                  <div className="art-sm-text-color">Software Engineer</div>
+                  <div className="art-sm-text-color">Software and Product</div>
                   <div className="art-sm-text">McCombs23, Austin, Texas</div>
                 </div>
                   <div className="art-hard-skills p-15-15">
