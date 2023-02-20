@@ -590,7 +590,7 @@ class OnePage extends Component {
                 <div className="art-ls-divider" />
                 <div className="art-section-title">
                   <div className="art-title-frame">
-                    <h4>Artwork</h4>
+                    <h4>Digital Art and Photography</h4>
                   </div>
                   {/* <div className="art-right-frame">
                     <div className="art-filter">
@@ -616,7 +616,7 @@ class OnePage extends Component {
                 <div className="art-ls-divider" />
                 <div className="art-section-title">
                   <div className="art-title-frame">
-                    <h4>Journey</h4>
+                    <h4>My Journey</h4>
                   </div>
                 </div>
                 <div className="gridContainer">
