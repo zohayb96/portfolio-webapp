@@ -11,6 +11,7 @@ import inizio from '../../public/images/inizio.png'
 import vroom from '../../public/images/vroom.png'
 import zombie from '../../public/images/zombie.png'
 import roller from '../../public/images/roller.png'
+import manestream from '../../public/images/manestream.png'
 import centraltime from '../../public/images/centraltime.png'
 import weatherme from '../../public/images/weatherme.jpeg'
 import ContentCard from './contentCard'
@@ -69,6 +70,15 @@ const allProjects = [
     video: 'https://youtu.be/7EUgKl5pGP4',
     code: 'https://github.com/zohayb96/YoutubeAnalyser',
     tag: {1: 'Solo'},
+    groupId: 0
+  },
+  {
+    id: 0,
+    title: 'Manestream',
+    description: 'Instagram Clone - React Native',
+    media: {image: manestream},
+    video: 'https://youtu.be/Xdw2BgNq1XQ',
+    tag: {0: 'Web', 3: 'Web'},
     groupId: 0
   },
   {
@@ -270,7 +280,7 @@ const allJourney = [
     startDate: new Date(2022, 1, 1),
     endDate: new Date(2022, 5, 1),
     media: {image: abhi},
-    info: 'Spearheaded the gamification of the ABHI mobile app and led the front end development of Abhi Super League game, deployed live to 500,000+ users',
+    info: 'Spearheaded the gamification of the ABHI mobile app and led the front end development of Abhi Super League game.',
     content: null,
     tag: 'Work',
     groupId: 2
