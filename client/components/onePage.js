@@ -75,7 +75,7 @@ const allProjects = [
   {
     id: 0,
     title: 'Manestream',
-    description: 'Instagram Clone - React Native',
+    description: 'React Native',
     media: {image: manestream},
     video: 'https://youtu.be/Xdw2BgNq1XQ',
     tag: {0: 'Web', 3: 'Web'},
@@ -398,6 +398,19 @@ class OnePage extends Component {
           <div className="art-app-container">
             <div className="art-info-bar">
               <div className="art-info-bar-frame">
+
+              <div className="art-links-frame p-15-15">
+                    <div
+                      className="art-link"
+                      onClick={() =>
+                        window.open(
+                          'https://drive.google.com/file/d/1sTVXmpLMBlSVWS78ruzwCbQwI_BTpYgE/view?usp=sharing'
+                        )
+                      }
+                    >
+                      Resume <i className="fas fa-download" />
+                    </div>
+                  </div>
                 <div className="art-header">
                   <div className="art-avatar">
                     <a
@@ -450,8 +463,11 @@ class OnePage extends Component {
                   <section className="home" id="home">
                     <div className="max-width">
                       <div className="Center">
-                        <div className="text-1">Hello,</div>
-                        <div className="text-3">Welcome to my world</div>
+                        <div className="text-1">Hello, my name is Zohayb Shaikh.</div>
+                        <div className="text-3">Technologist, designer and engineer.</div>
+                        <div className="text-3">
+                        I am passionate about building and learning to drive positive social impact.
+                        </div>
                         {/* <div className="home-content">
                           <a href="#">Follow</a>
                         </div> */}
