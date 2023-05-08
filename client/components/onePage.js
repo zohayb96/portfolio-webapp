@@ -464,9 +464,8 @@ class OnePage extends Component {
                     <div className="max-width">
                       <div className="Center">
                         <div className="text-1">Hello, my name is Zohayb Shaikh.</div>
-                        <div className="text-3">Technologist, designer and engineer.</div>
                         <div className="text-3">
-                        I am passionate about building and learning to drive positive social impact.
+                        I am passionate about leveraging technology to drive positive social impact.
                         </div>
                         {/* <div className="home-content">
                           <a href="#">Follow</a>
