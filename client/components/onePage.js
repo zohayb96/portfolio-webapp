@@ -404,7 +404,7 @@ class OnePage extends Component {
                       className="art-link"
                       onClick={() =>
                         window.open(
-                          'https://drive.google.com/file/d/1sTVXmpLMBlSVWS78ruzwCbQwI_BTpYgE/view?usp=sharing'
+                          'https://drive.google.com/file/d/1Ok83KjkowI04TzMX5B4YCA1YzFdjc2w5/view?usp=sharing'
                         )
                       }
                     >
