@@ -3078,11 +3078,18 @@ html.is-animating .fade-left {
 .home .max-width {
   width: 100%;
   display: flex;
-  padding: 100px;
+  padding: 50px;
   text-align: left;
 }
 .home .max-width .row {
   margin-right: 0;
+}
+.social-icon {
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.text-1  {
+  padding-bottom: 8px;
 }
 .home .home-content .text-1 {
   font-size: 27px;
@@ -3284,8 +3291,7 @@ section .title::after {
 
 .socialBanner {
   display: flex;
-  margin-top: 10px;
-  justify-content: space-between;
+  padding: 10px;
 }
 
 .buttonContainer {
