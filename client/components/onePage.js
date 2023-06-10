@@ -551,9 +551,9 @@ class OnePage extends Component {
                         <div className="text-1">
                           He holds a Masters in Technology Commercialization and a Bachelors in Computer Science.
                         </div>
-                        <div className="text-1">
+                        {/* <div className="text-1">
                         With product development exeperience at fast growing technology startups across the financial, AI and consumer products industries. 
-                        </div>
+                        </div> */}
                         <div className="text-1">
                         Zohayb is looking for opportunites to create technology that can make a positive impact on society. 
                         </div>

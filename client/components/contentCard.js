@@ -26,7 +26,7 @@ class ContentCard extends Component {
           className="cardImage"
           title={title}
         >
-          <img src={media.image} alt="avatar" className="cardImage" />
+          <img src={media.image} alt="Zohayb Shaikh" className="cardImage" />
           <i className="fas fa-expand" />
         </a>
 
