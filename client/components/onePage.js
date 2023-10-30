@@ -545,9 +545,9 @@ class OnePage extends Component {
                   <section className="home" id="home">
                     <div className="max-width">
                       <div className="Center">
-                        <div className="text-1">
+                        {/* <div className="text-1">
                           Zohayb Shaikh is a technology professional specializing in building and designing software products. 
-                        </div>
+                        </div> */}
                         <div className="text-1">
                           He holds a Masters in Technology Commercialization and a Bachelors in Computer Science.
                         </div>
